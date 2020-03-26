@@ -1,0 +1,23 @@
+.quadradosWrapper {
+    width: 100%;
+    min-height: 400px;
+}
+
+.quadrados {
+    width: 15%;
+    height: 250px;
+    border: solid 1px gray;
+    margin: 3% 0 0 4%;
+    float: left;
+}
+
+.NossaHistoriaContent h4 {
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: justify;
+    color: #9f957E;
+    font-family: 'franklin gothic medium', 'century gothic';
+    line-height: 35px;
+}

@@ -1,0 +1,65 @@
+@import "system-fonts";
+@import "./Pages/NossaHistoria.scss";
+
+$bege: #9f957E;
+$bege-escuro: #4c390c;
+$vermelho: #922D2D;
+
+@font-face {
+    font-family: 'Super-Yeasty';
+    src: local('SuperYeasty'), url(./SuperYeasty.otf) format('truetype');
+  }
+
+
+ 
+/* menu */
+.Menu {
+    height: 140px;
+}
+
+.Menu ul {
+    height: 110px;
+    width: 43%;
+    margin: 2% auto;
+    padding: 0;
+}
+
+.Menu ul li{
+    float: left;
+    margin: 0 3% 0 3%;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+.Menu ul li a {
+    text-align: center;
+    text-decoration: none;
+    color: $bege;
+    margin: 0;
+    padding: 0;
+    font-size: 27px;
+    font-family: 'franklin gothic medium', 'century gothic';       
+}
+
+.Menu ul li a:hover {color: $bege-escuro;}
+
+
+// Footer
+.Footer {
+    background: #922d2d;
+    text-align: center;
+    color: #dcdcdc;
+    width: 100%;
+    height: 64px;
+    margin: 0;
+}
+.Footer h3 {
+    padding-top: 20px;
+}
+
+
+//Wrapper Content
+.WrapperContent{
+    min-height: 400px;
+}

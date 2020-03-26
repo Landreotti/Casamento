@@ -1,0 +1,61 @@
+$bege: #9f957E;
+$bege-escuro: #4c390c;
+$vermelho: #922D2D;
+
+ // Header
+ .Header{
+    clear: both;
+    font-family: 'Super-Yeasty';
+    width: 100%;
+    height: 350px;
+}
+.HeaderNames {
+    width: 100%;
+}
+.HeaderNames div {
+    width: 40%;
+    float: left;
+    margin: 2% 0 0 0;
+}
+.HeaderNames div h1 {
+    font-size: 106px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color:$bege-escuro;
+}
+.HeaderNames div h2 {
+    text-align: center;
+    font-size: 55px;
+    margin: 0;
+    padding: 0;
+    color: $vermelho;
+}
+.HeaderNames .SobrenomeNoiva{
+    font-size: 60px;
+}
+.HeaderNames img {
+    width: 20%;
+    float: left;
+}
+
+.HomeContent h1 {
+    text-align: center;
+    font-size: 50px;
+    color: $bege;
+}
+
+.HomeContent h4 {
+    font-size: 20px;
+    width: 53%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: justify;
+    color: #9f957E;
+    font-family: 'franklin gothic medium', 'century gothic';
+    line-height: 35px;
+}
+
+.LinkHome{
+    color: $bege-escuro!important;
+}
